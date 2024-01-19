@@ -270,3 +270,61 @@ section {
 .btn-container {
   gap:1rem;
 }
+
+/* ABOUT SECTION */
+
+/* TODO: why is this relative? and what is position:absolute*/
+#about {
+  position:relative;
+}
+
+/* the two cards as a whole with experience and education */
+.about-containers{
+  gap:2rem;
+  margin-bottom:2rem;
+  margin-top:2rem;
+}
+
+/* the whole right side */
+.about-details-container {
+  justify-content:center;
+  flex-direction:column;
+}
+
+.about-containers, .about-details-container {
+  display:flex;
+}
+
+.about-pic {
+  border-radius:2rem;
+}
+
+/* positioned to its nearest ancestor which is the section */
+.arrow {
+  position:absolute;
+  right:-5rem;
+  bottom:2.5rem;
+}
+
+/* TODO: why are there 2 different colors */
+.details-container {
+  padding:1.5rem;
+  flex:1;
+  background:white;
+  border-radius:2rem;
+  border:rgb(53,53,53) 0.1rem solid;
+  border-color:rgb(163, 163, 163);
+  text-align:center;
+}
+
+/* everything inlcude about pic but exclude About Me text */
+.section-container {
+gap:4rem;
+height:80%;
+}
+
+.section__pic-container {
+  height:400px;
+  width:400px;
+  margin:auto 0;
+}
