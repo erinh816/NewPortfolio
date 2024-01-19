@@ -440,6 +440,16 @@ article .icon {
   height:2rem;
 }
 
+/* FOOTER */
+footer {
+  height:26vh;
+  margin:0 1rem;
+}
+
+footer p {
+  text-align:center;
+}
+
 
 
 /* some tips
