@@ -184,10 +184,11 @@ section {
 
 /* TODO: I added this class and profile pic is not responsive */
 .profile-pic {
-  width:400px;
-  height:400px;
-  clip-path: circle(50%); /* Create a circular mask with a radius of 50% */
-  object-fit: cover; /* Ensure the image covers the entire circular area */
+  /* width:400px;
+  height:400px; */
+  clip-path: circle(50%);
+ 
+ 
 }
 
 .section__text {

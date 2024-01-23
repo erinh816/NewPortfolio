@@ -1,25 +1,3 @@
-
-
-
-/* After all HTML and CSS are done */
-
-/* #profile is hero section */
-/* @media screen and (max-width:1400px){
-  #profile {
-    height:83vh;
-    margin-bottom:6rem;
-  }
-  .about-containers {
-    flex-wrap:wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
-} */
-
-/* when the screen size is lower than 1200px, desktop nav disappear 
-instead, hamburger menu shows*/
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -113,11 +91,6 @@ instead, hamburger menu shows*/
     height: 46vw;
     justify-content: center;
   }
-  /* .profile-pic {
-    width: auto;
-    height: auto;
-    justify-content: center;
-  } */
   .section__text__p2 {
     font-size: 1.25rem;
   }
