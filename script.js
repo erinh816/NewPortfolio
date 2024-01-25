@@ -1,3 +1,5 @@
+"use strict";
+
 function toggleMenu() {
   //select the lis div
   const menu = document.querySelector(".menu-links");

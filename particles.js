@@ -48,9 +48,9 @@ particlesJS('particles-js', {
     line_linked: {
       enable: true,
       distance: 150,
-      // color: {
-      //   value: ['#BD10E0', '#B8E986', '#50E3C2', '#FFD300', '#E86363']
-      // },
+      color: {
+        value: ['#BD10E0', '#B8E986', '#50E3C2', '#FFD300', '#E86363']
+      },
       color: '#7640b3',
       opacity: 0.6,
       width: 1
@@ -114,10 +114,10 @@ particlesJS('particles-js', {
 
 /* ---- stats.js config ---- */
 
-var count_particles, stats, update;
+let count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
-stats.domElement.style.position = 'absolute';
+// stats.domElement.style.position = 'absolute';
 stats.domElement.style.left = '0px';
 stats.domElement.style.top = '0px';
 document.body.appendChild(stats.domElement);
