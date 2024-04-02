@@ -8,13 +8,13 @@ particlesJS('particles-js', {
       }
     },
     color: {
-      value: '#0c0d0c'
+      value: '#797a79'
     },
     shape: {
       type: 'circle',
       stroke: {
         width: 0,
-        color: '#0c0d0c'
+        color: '#797a79'
       },
       polygon: {
         nb_sides: 5
@@ -51,7 +51,7 @@ particlesJS('particles-js', {
       color: {
         value: ['#BD10E0', '#B8E986', '#50E3C2', '#FFD300', '#E86363']
       },
-      color: '#7640b3',
+      color: '#e5daf2',
       opacity: 0.6,
       width: 1
     },
