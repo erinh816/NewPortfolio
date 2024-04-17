@@ -258,7 +258,8 @@ section {
 
 /* BUTTONS */
 .btn-container {
-  display:flex;
+  /* display:flex; */
+  display:absolute;
   justify-content:center;
   gap:1rem;
 }
@@ -269,6 +270,7 @@ section {
   padding:1rem;
   width:8rem;
   border-radius:2rem;
+  margin-top:1rem;
 }
 
 /* TODO:really competitive in this section, organize */
