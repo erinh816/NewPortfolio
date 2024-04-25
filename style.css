@@ -216,6 +216,7 @@ section {
   /* width:400px;
   height:400px; */
   clip-path: circle(50%);
+  border-radius:27% 73% 62% 38% / 21% 38% 62% 79%   ;
  
  
 }
